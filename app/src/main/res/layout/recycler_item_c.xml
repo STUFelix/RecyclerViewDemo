@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:padding="15dp"
+    >
+    <TextView
+        android:id="@+id/tv_student_message_record"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="本次观看直播45人，查看回放30人"
+        />
+
+</LinearLayout>

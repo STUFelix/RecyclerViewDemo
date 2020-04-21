@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="48dp"
-    android:padding="15dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
     >
-    <TextView
-        android:id="@+id/tv_student_message_record"
+    <LinearLayout
+        android:layout_height="47dp"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:text="本次观看直播45人，查看回放30人"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_number_of_live_viewers"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#262626"
+        android:text="本次观看直播45人"
         />
-
+    <TextView
+        android:id="@+id/tv_number_of_playback_viewers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#262626"
+        android:text="，查看回放30人"
+        />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:alpha="0.1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
 </LinearLayout>

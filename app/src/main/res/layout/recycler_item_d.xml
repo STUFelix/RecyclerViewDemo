@@ -2,33 +2,31 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="41dp"
     android:orientation="horizontal"
-    android:padding="12dp"
+    android:paddingTop="20dp"
+    android:layout_marginLeft="16dp"
     >
     <TextView
         android:id="@+id/tv_student_name"
-        android:layout_height="36dp"
+        android:layout_height="wrap_content"
         android:layout_width="120dp"
-        android:layout_marginLeft="16dp"
-        android:text="学生名字"
         android:textSize="12sp"
+        android:textColor="#242F38"
         />
     <TextView
         android:id="@+id/tv_watch_live_time"
-        android:layout_height="36dp"
-        android:layout_width="120dp"
-        android:layout_marginLeft="16dp"
-        android:text="查看直播时长"
+        android:layout_height="wrap_content"
+        android:layout_width="136dp"
         android:textSize="12sp"
+        android:textColor="#242F38"
         />
     <TextView
         android:id="@+id/tv_watch_record_time"
-        android:layout_height="36dp"
-        android:layout_width="120dp"
-        android:layout_marginLeft="16dp"
-        android:text="查看回放时长"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:textSize="12sp"
+        android:textColor="#242F38"
         />
 
 </LinearLayout>
